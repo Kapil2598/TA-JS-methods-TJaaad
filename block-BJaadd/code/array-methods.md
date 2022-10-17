@@ -34,12 +34,83 @@ Example:
    - No it does not mutate the original array
 
 2. `join`
+  parameter - it is optional. but we also give a saparator(" ,")
+  return - a string thath joined the element
+Example:
+ ```js
+     a= [ `yash`, `vardhan`];
+Array [ "yash", "vardhan" ]
+
+a.join("")
+
+"yashvardhan"
+     ```
+
+
 3. `flat`
+
+parameter - depth
+return - a new array
+Example:
+``
+   b = [1,2,[3,334,[44]]];
+Array(3) [ 1, 2, (3) […] ]
+
+b.flat()
+Array(5) [ 1, 2, 3, 334, (1) […] ]
+```
+
 4. `push`
+parameter - used to add a alement to last
+return - new length
+mutate- yes
+eg-
+```js
+a = [1,2,3]
+a.push(4);
+```
+
 5. `indexOf`
+parameter - search
+return - index of an element
+no mutate
+eg -
+``` js
+c= [1,2,3];
+c.indexof(2);
+```
+
 6. `lastIndexOf`
+
+parameter - search backward
+return - index of an element
+no mutate
+eg -
+``` js
+c= [1,2,3];
+c.lastindexof(2);
+```
+
 7. `includes`
+parameter - search backward
+return -boolean value
+no mutate
+eg -
+``` js
+c= [1,2,3];
+c.includes(2);
+```
+
 8. `reverse`
+parameter - 
+return - reverse array
+ mutate
+eg -
+``` js
+c= [1,2,3];
+c.reverse();
+```
+
 9. `every`
 10. `shift`
 11. `splice`
