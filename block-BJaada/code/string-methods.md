@@ -32,11 +32,61 @@ Example:
    - `charAt` accepts a index (number data type) and return the character on that index in the string.
 
 2. `toUpperCase`
+    return- it convert lower case to upper case and accept only string value.
+        EXAMPLE-
+```js
+    let name = `arya`;
+    name.toupperCase();
+```
 3. `toLowerCase`
-4. `trim`
+    return- it convert upper case to  lower case and accept only string value.
+        EXAMPLE-
+```js
+    let name = `ARYA`;
+    name.toLowerCase();
+```
+
+4. `trim` ``
+```js
+it reomves space from start and end    
+ Example :
+ let name = "   Ey"
+ name.trim()
+ Ey
+
+```
 5. `trimEnd`
+```js
+it reomves space from end
+name = "   arya   "
+"   arya   "
+
+name.trimend()
+
+"   arya"
+```
 6. `trimStart`
+
+```js
+it reomves space from start 
+name = "   arya   "
+"   arya   "
+
+name.trimStart()
+
+"arya   "
+```
 7. `concat`
+It is used to concat to stirng
+example
+name = " ar  ya"
+" ar  ya"
+name.concat()
+" ar  ya"
+s = "dd"
+"dd"
+name.concat(s)
+" ar  yadd" 
 8. `endsWith`
 9. `includes`
 10. `indexOf`
