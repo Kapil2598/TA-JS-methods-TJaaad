@@ -112,11 +112,60 @@ c.reverse();
 ```
 
 9. `every`
+parameter - call back function
+return - boolean
+no mutate
+eg -
+``` js
+c= [1,2,3];
+c.every();
+```
+
 10. `shift`
+parameter - 
+return - undefined if the array is empty 
+no mutate
+removes the element at the zeroth index and shifts the values at consecutive indexes down
+eg -
+``` js
+c= [1,2,3];
+c.shift();
+```
 11. `splice`
+parameter -  splice(start, deleteCount, item1, item2, itemN)
+return - An array containing the deleted elements.
+no mutate
+eg -
+``` js
+c= [1,2,3];
+c.splice(2);
+```
 12. `find`
+parameter - 
+return - value that find
+no mutate
+eg -
+``` js
+c= [1,2,3];
+c.find(1);
+```
 13. `unshift`
+parameter - element
+return - reverse array
+ mutate
+eg -
+``` js
+c= [1,2,3];
+c.unshift();
+```
 14. `findIndex`
+A function used to test elements in the array.
+eg -
+``` js
+c= [1,2,3];
+c.findIndexof();
+```
+
 15. `filter`
 16. `flat`
 17. `forEach`
