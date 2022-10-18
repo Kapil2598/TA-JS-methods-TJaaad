@@ -7,7 +7,8 @@ let to = 'Arya Stark';
 /*
 1. Find the index of the first 'is' in the variable quote. And store it in a new variable named indexOfIs
 */
-
+let indexOfIs = quote.indexOf('is');
+console.log(indexOfIs);
 /*
 2. Find the character at the index indexOfIs (Problem 1) in quote.
 */
@@ -29,8 +30,8 @@ let to = 'Arya Stark';
 /*
 5. Using the variable from , to and quote variable dispaly this message
   "Syrio Forel said There is only one thing we say to death: Not today to Arya Stark." (use concat method)
-*/
-
+*/let a = from.concat(quote, " said", to , "to");
+console.log(a);
 /*
 6. Does from, to and quote ends with "rk". Check all three.
 */
